@@ -1,0 +1,171 @@
+/* Typography */
+body{
+    color: white;
+    font-family: 'poppins';
+}
+
+h1, h2, h3 {
+    font-weight: 100;
+}
+
+h1{
+    font-size: 24px;
+    margin: 0px; 
+}
+
+h2{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+.settingsContainer{
+
+    .closeIcon{
+        position: absolute;
+        right: 0;
+        top: 0;   
+
+        margin: 20px 40px;
+        cursor: pointer;   
+    }
+
+
+    .closeIcon:hover { /* Use & to reference the parent selector for pseudo-classes */
+        color:  #928da2;
+        transition: 0.1s ease-out;
+        transform: scale(1.15);
+    }
+    
+}
+
+.settingsBtn{
+    width: 40px;
+    height: 40px;
+    background-color: #232323;
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+}
+
+.menu {
+    position: fixed;
+    height: 628px;
+    width: 500px;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 12px;
+    background-color: #232323;
+    transition: right 0.3s ease;
+    z-index: 1;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 75px 40px 42px 40px;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 40px 42px 40px;
+    gap: 26px;
+}
+
+input {
+    width: 165px;
+    height: 46px;
+    padding-left: 1rem;     
+    padding-right: 1rem;     
+
+    border-radius: 12px;
+    border: none;
+}
+  
+/* Focus state */
+input:focus {
+border-color: #007bff;
+box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.format{
+    margin-bottom: 40px;
+
+    h2{
+        margin: 40px 40px 12px 40px;
+    }
+
+    .selectTime{
+        margin: 0px 40px;
+        display: flex;
+        flex-direction: row;
+        gap: 26px;
+
+        
+        h3{
+            text-align: center;
+            margin-top: 8px;
+            margin-bottom: 0px;
+        }
+       
+    }
+
+    .toggleTime{
+        border: 1px solid transparent; 
+        border-radius: 12px;
+    }
+
+    .toggleTime.selected{
+        border: 2px solid white;
+    }
+    
+}
+
+  
+
+
+.buttonContainer{
+    text-align: center;
+
+    .submitBtn{
+        cursor: pointer;
+        background-color: #66647C;
+        padding: 13px 60px;
+        text-align: center;
+        border: none;
+        border-radius: 12px;
+        
+        font-size: 20px;
+        color: white;
+    }
+
+    .submitBtn:active{
+        transform: translateY(2px);
+    }
+
+
+    .submitBtn:hover{
+        background-color:  #928da2;
+        transition: 0.1s ease-out;
+    }
+
+    .active{
+        background-color:#343339;
+    }
+
+}
+
+
+

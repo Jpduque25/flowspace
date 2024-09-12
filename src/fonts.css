@@ -1,0 +1,44 @@
+/* src/fonts.css */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chillax-Regular';
+    src: url('./assets/fonts/Chillax-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nippo-Medium';
+    src: url('./assets/fonts/Nippo-Medium.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Magilio';
+    src: url('./assets/fonts/Magilio.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./assets/fonts/Satoshi.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Anton';
+    src: url('./assets/fonts/Anton.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
